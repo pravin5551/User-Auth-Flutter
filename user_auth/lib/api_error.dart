@@ -1,13 +1,12 @@
-
-
 class ApiError {
- late String _error;
+  late String _error;
 
   ApiError({required String error}) {
     this._error = error;
   }
 
   String get error => _error;
+
   set error(String error) => _error = error;
 
   ApiError.fromJson(Map<String, dynamic> json) {
