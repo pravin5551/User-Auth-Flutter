@@ -1,3 +1,5 @@
+//api_response.dart
+
 class ApiResponse {
   // _data will hold any response converted into
   // its own object. For example user.
