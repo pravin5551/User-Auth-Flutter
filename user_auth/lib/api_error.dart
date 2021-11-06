@@ -1,3 +1,5 @@
+//api_error.dart
+
 class ApiError {
   late String _error;
 
